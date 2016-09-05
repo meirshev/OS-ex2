@@ -1,0 +1,58 @@
+rozen1990, meirshev
+Rozen Arbov (302831474), Meir Franco (301516746)
+EX: 2
+
+Files:
+Thread.h - the header file of thread which creates the thread itself.
+Thread.cpp - The source file which contains the implementation of the Thread
+header file.
+Makefile - a makefile for the task.
+README - this file.
+
+REMARKS:
+
+ANSWERS:
+
+TASK1:
+
+in this ex, we implemented two classes:
+
+uthreadLibrary - a vec that contains all the uthreads, and also some methods
+that gives us info
+about the class, in addition we implemented a ready Queue that will save the
+ treads that need to
+run.
+uthread - this class represent a thread, including some fields and methods.
+another imortant method is the timehandler, that basiclly this is a clock
+that "tells" to us
+every quanta.
+
+TASK2:
+
+ANSWERS TO QUESTIONS
+
+
+1. the main advantage of process is that it faster, but heavier (the memory
+that allocated)
+and in kernel level it is takes less memory but slower.
+probably, google prefer that the browser will be faster than memory save.
+
+2.
+   a. - call the ^C(SIGINT)
+   b. - call by ^C(SIGINT) signal or "kill <pid>" in the shell or SIGKILL(9)
+we saw that "SIGTERM" is the signal that calles when the kill command called.
+
+3.real time is the time that we live with, in the real world(also relative
+ "albert einstein")
+and the virtual time is the number of quant * time of quants.
+ for example when a thread running, it is the virtual time, if hw blocks,
+ the real time keeps
+ running and the virtual stopps.
+
+4.a. when using fork() command, all the memory that common for the child and
+the parant is shared.
+b.pipe is a unit betweeen a file that share for changes, for example a file,
+ that someone can write
+to it and someone can read from it. we dont want that while someone changing
+ it someone will read it,
+and thats why we will use a pipe.
